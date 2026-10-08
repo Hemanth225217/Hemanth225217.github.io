@@ -515,6 +515,13 @@ h1,h2,h3,p{ margin: 0; }
   position: relative;
   padding-bottom: 8px;
 }
+.timeline__item + .timeline__item{
+  margin-top: 32px;
+}
+.timeline__content .link-btn{
+  display: inline-block;
+  margin-top: 12px;
+}
 .timeline__marker{
   position: absolute;
   left: -38px;
