@@ -136,7 +136,7 @@
 
       const filter = btn.dataset.filter;
       projectCards.forEach((card) => {
-        const match = filter === 'all' || card.dataset.category === filter;
+        const match = filter === 'all' || card.dataset.category.split(' ').includes(filter);
         card.classList.toggle('is-hidden', !match);
       });
     });
