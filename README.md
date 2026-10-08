@@ -42,4 +42,4 @@ Published via **GitHub Pages** from the `main` branch, root folder. Any push to 
 - [ ] (Optional) add `assets/profile.jpg` and reference it in the hero section
 - [ ] Verify the four project GitHub links in `index.html` point at your actual repo names
 - [ ] Fill in the real internship dates/responsibilities in the Experience section
-- [ ] Update the LinkedIn URL in the Contact section
+- [x] Update the LinkedIn URL in the Contact section
