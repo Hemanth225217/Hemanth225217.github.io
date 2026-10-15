@@ -500,6 +500,8 @@ h1,h2,h3,p{ margin: 0; }
   transition: gap .2s var(--ease);
 }
 .link-btn:hover{ text-decoration: underline; }
+.link-btn--muted{ color: var(--text-dim); cursor: default; }
+.link-btn--muted:hover{ text-decoration: none; }
 
 .project-card.is-hidden{
   display: none;
